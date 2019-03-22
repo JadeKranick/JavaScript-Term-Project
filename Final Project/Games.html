@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Final Project Games</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/games.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+</head>
+<body style="background-image:url('media/colors.jpg'); background-size:contain;">
+<div id="navbar" style="background-image:url('media/colorsBanner.png'); background-size: cover;">
+    <a href="#default" id="logo">Final Project</a>
+
+    <div id="navbar-right">
+            <a class="active" href="Games.html">Home</a>
+            <a href="madLib.html">| Mad Lib</a>
+            <a href="memoryGame.html">| Memory Game</a>
+            <a href="maze.html">| Maze</a>
+    </div>
+</div>
+
+<div style="margin-top:210px;padding:25px 15px 2500px;font-size:2em; color:wite; opacity:.8; font-weight: 900;">
+  <p style="padding:15px;">Final Project for CIT 190</p>
+    <p style="background-color:white; padding:60px;">
+    3 games to play! <br><br>
+    1. Mad Libs | have some fun dragging words to fill in the blanks with a friend and create funny and exciting sentences.<br><br>
+    2. Battle Ground | navigate your way through using the arrow keys and avoid the enemy! <br><br>
+    3. Maze | try to get out of this maze and get to the end! <br>
+   </p>
+</div>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.fontSize = "3em;";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "3em;";
+  }
+}
+</script>
+
+</body>
+</html>
+<!-- The audience for this website is directed more for young children, around 4 and older. The layout
+is bright and colorful, to give a positive feel to the site. I chose a sticky menu to help navigate
+no matter where you are as children tend to need more guidance than an adult. The font was chosen for 
+readability as well as a fun expression. The buttons are large, helping children as they can sometimes
+need larger areas to cover to practice fine-motor. -->
