@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="css/DreamLand.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+<style>
+h1{
+  font-size: 2em;
+}
+</style>
+<title>Final Project Games</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="background-image:url('media/colors.jpg'); background-size:cover;" onload="startGame()">
+
+  <div id="navbar" style="background-image:url('media/colorsBanner.png'); background-size: cover;">
+    <a href="#default" id="logo">Final Project</a>
+      <div id="navbar-right">
+              <a href="Games.html">Home</a>
+              <a href="madLib.html">| Mad Lib</a>
+              <a class="active" href="GarfieldDreamLand.html">| Garfield Dreams</a>
+              <a href="maze.html">| Maze</a>
+      </div>
+  </div>  
+<div style="padding:25px 15px 25px; font-size:2em; font-weight: 900;">
+  <h1 style="padding:15px; background-color: white; border-radius: 15px; text-align: center; margin-top: 240px;">Garfield Dream Land!</h1>
+    <p style="background-color:white; padding:20px; border-radius: 15px;">
+      Help navigate Garfield through the endless spaghetti! <br>
+      Read Me Here: <a href="readMe/readMe(GarfieldDreamLand).txt" rel="readMe">Dream Land Read Me</a><br>
+      Directions: Use the arrow keys to move Garfield through the endless spaghetti! Try not to hit the spaghetti!
+    </p>
+    <section>
+    <canvas id="canvas" width="700" height="500" style="position:relative; border:1px solid black; background-color:white; background-size:contain; margin-left: 390px;"></canvas>    
+  </section>
+</div>
+<script src="js/DreamLand.js"></script>
+</body>
+</html>
